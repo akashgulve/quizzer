@@ -51,3 +51,5 @@ if choice==4:
     mycursor.execute("select * from questions1")
     data=mycursor.fetchall()
     print(data)
+else:
+    print("please choose correct choice out of 1,2,3,4")
